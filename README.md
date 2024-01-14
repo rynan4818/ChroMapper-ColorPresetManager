@@ -9,6 +9,9 @@ This plugin allows you to switch Chroma color presets in BeatSaber's notation to
 
 You can name and manage presets, and create a special `ChromaColors.json` file in the score folder for saving and loading.
 
+![image](https://github.com/rynan4818/ChroMapper-ColorPresetManager/assets/14249877/e87851fb-b900-4f99-9ea9-28b44e9e1913)
+
+
 # インストール方法 (How to Install)
 
 1. [リリースページ](https://github.com/rynan4818/ChroMapper-ColorPresetManager/releases)から、最新のプラグインのzipファイルをダウンロードして下さい。
