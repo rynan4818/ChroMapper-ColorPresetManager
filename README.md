@@ -40,15 +40,15 @@ ChromaカラーのパレットのUIの下部に、プリセット管理のドロ
 
 At the bottom of the UI for the Chroma color palette, a drop-down list for managing presets and a Load, Save, Del button will be added.
 
-Set the drop-down list to `New Save` and press the `Save` button to open a dialog to choose a name.
+Set the drop-down list to `New Save` and press the `Save` button to open a dialog to input a name.
 
 Select a saved preset and press the `Load` button to load it, or press the `Del` button to delete it.
 
-Set the drop-down list to `Song Preset` and press `Save` button to create and save `ChromaColors.json` in the score folder.
+Set the drop-down list to `Song Preset` and press `Save` button to create and save `ChromaColors.json` in the map folder.
 
-If `ChromaColors.json` exists in the score folder, the drop-down list will show `Song Preset [Available]` and you can load it with `Load`.
+If `ChromaColors.json` exists in the map folder, the drop-down list will show `Song Preset [Available]` and you can load it with `Load`.
 
-The format of `ChromaColors.json` saved in the score folder is the same as the ChroMapper original.
+The format of `ChromaColors.json` saved in the map folder is the same as the ChroMapper original.
 
 # 開発者情報 (Developers)
 このプロジェクトをビルドするには、ChroMapperのインストールパスを指定する`ChroMapper-ColorPresetManager\ChroMapper-ColorPresetManager.csproj.user`ファイルを作成する必要があります。
