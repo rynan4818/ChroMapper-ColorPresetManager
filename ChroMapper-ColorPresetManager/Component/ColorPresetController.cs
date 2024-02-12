@@ -222,8 +222,6 @@ namespace ChroMapper_ColorPresetManager.Component
 
         public void LoadPreset()
         {
-            foreach (var color in this._tempColors)
-                Debug.Log(color.ToString());
             ColorPresetManager.Get().UpdateList(this._tempColors);
             Debug.Log("LoadPreset");
         }
