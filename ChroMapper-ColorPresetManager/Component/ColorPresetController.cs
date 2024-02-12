@@ -55,7 +55,7 @@ namespace ChroMapper_ColorPresetManager.Component
             // Color SelectorのUIサイズ変更
             var colourSelector = picker.transform.parent.GetComponent<RectTransform>();
             var colourSelectorPos = colourSelector.position;
-            colourSelector.position = new Vector3(colourSelectorPos.x, colourSelectorPos.y + 25f, colourSelectorPos.z);
+            colourSelector.position = new Vector3(colourSelectorPos.x, colourSelectorPos.y + 40f, colourSelectorPos.z);
             picker.transform.parent.GetComponent<ToggleColourDropdown>().YTop += 25f;
 
             // ドロップダウンリスト作成
