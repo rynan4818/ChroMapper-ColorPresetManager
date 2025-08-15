@@ -22,7 +22,7 @@ namespace ChroMapper_ColorPresetManager.Component
         public void Start()
         {
             this._settingJsonFile = Path.Combine(Application.persistentDataPath, "ColorPresetManager.json");
-            this._songPresetFile = Path.Combine(BeatSaberSongContainer.Instance.Song.Directory, "ChromaColors.json");
+            this._songPresetFile = Path.Combine(BeatSaberSongContainer.Instance.Info.Directory, "ChromaColors.json");
             //　UI作成
             var picker = GameObject.Find("MapEditorUI/Chroma Colour Selector/Chroma Colour Selector/Picker 2.0");
             if (picker == null)
